@@ -1,0 +1,47 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Login Page</title>
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css"
+    />
+
+    <link rel="stylesheet" href="src/output.css" />
+    <link rel="stylesheet" href="src/login.css" />
+  </head>
+  <body>
+    <div class="main-container rounded-lg">
+      <div class="login-card grid sm:grid-cols-12 rounded-lg">
+        <div class="img-box sm:col-span-6 bg-red-300 rounded-s-xl">
+          
+        </div>
+
+        <div class="context-box sm:col-span-6 rounded-r-xl px-8">
+          <h2 class="text-center text-[#173c2b]">Welcome Back</h2>
+
+          <form action="#" class="flex flex-col gap-3 mt-5">
+            <input
+              class="form-box border border-gray-300 focus:border-[#397543] focus:ring-2 focus:ring-[#397543] outline-none"
+              type="email"
+              placeholder="Email Address"
+            />
+            <input class="form-box border border-gray-300 focus:border-[#397543] focus:ring-2 focus:ring-[#397543] outline-none" type="password" placeholder="Password" />
+            <button
+              type="submit"
+              class="btn-sign-in form-box font-semibold text-lg cursor-pointer"
+            >
+              Sign In
+            </button>
+          </form>
+          <div class="not-account grid sm:grid-cols-12 gap-1 mt-2.5 pb-2.5">
+            <p class="sm:col-span-7">Don't have an account?</p>
+            <a href="../signup/signup.html" class="text-[#397543] font-bold underline col-span-5 hover:no-underline">Sign Up</a>
+          </div>
+        </div>
+      </div>
+    </div>
+  </body>
+</html>

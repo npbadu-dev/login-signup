@@ -1,0 +1,86 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Sign Up</title>
+    <link rel="stylesheet" href="src/signup.css" />
+    <link rel="stylesheet" href="src/output.css" />
+  </head>
+  <body>
+    <div class="main-container">
+      <div class="signup-card">
+        <h2 class="font-bold text-center text-[#173c2b] pt-10">
+          Create Account
+        </h2>
+        <div class="input grid sm:grid-cols-12 px-6 mt-10 gap-8">
+          <div class="left-input sm:col-span-6">
+            <form action="#" class="flex flex-col gap-4">
+              <input
+                type="text"
+                placeholder="first name"
+                class="form-box border border-gray-300 focus:border-[#397543] focus:ring-2 focus:ring-[#397543] outline-none"
+              />
+              <input
+                type="email"
+                placeholder="Email"
+                class="form-box border border-gray-300 focus:border-[#397543] focus:ring-2 focus:ring-[#397543] outline-none"
+              />
+              <input
+                type="password"
+                placeholder="Enter Password"
+                class="form-box border border-gray-300 focus:border-[#397543] focus:ring-2 focus:ring-[#397543] outline-none"
+              />
+              <div class="flex items-center gap-2 justify-center">
+                <input
+                  type="checkbox"
+                  id="agree"
+                  class="w-5 h-5 accent-[#397543] cursor-pointer"
+                  required
+                />
+
+                <label for="agree" class="text-gray-700 cursor-pointer">
+                  I agree to the Terms & Conditions
+                </label>
+              </div>
+            </form>
+          </div>
+          <div class="right-input sm:col-span-6">
+            <form action="#" class="flex flex-col gap-4">
+              <input
+                type="text"
+                placeholder="last name"
+                class="form-box border border-gray-300 focus:border-[#397543] focus:ring-2 focus:ring-[#397543] outline-none"
+              />
+
+              <input
+                type="number"
+                placeholder="Ph. No"
+                class="form-box border border-gray-300 focus:border-[#397543] focus:ring-2 focus:ring-[#397543] outline-none"
+              />
+              <input
+                type="password"
+                placeholder="re-enter-password"
+                class="form-box border border-gray-300 focus:border-[#397543] focus:ring-2 focus:ring-[#397543] outline-none"
+              />
+            </form>
+          </div>
+        </div>
+        <div class="signup flex justify-center items-center mt-2">
+          <form action="#">
+            <button
+              type="submit"
+              class="btn-sign-up form-box font-semibold text-lg cursor-pointer"
+            >
+              Create Account
+            </button>
+          </form>
+        </div>
+        <div class="already flex justify-center items-center gap-2.5 mt-2.5 pb-5">
+          <p>Already have an account?</p>
+          <a href="../login/login.html" class="text-[#397543] font-bold underline col-span-5 hover:no-underline">Log In</a>
+        </div>
+      </div>
+    </div>
+  </body>
+</html>
